@@ -1,0 +1,112 @@
+
+/*Color of the body*/
+.wall1{
+	background-color:#006699;
+}
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */ 
+.navbar {
+	margin-bottom: 50px;
+    border-radius: 0;
+}
+    
+/* Remove the jumbotron's default bottom margin */ 
+.jumbotron {
+	margin-bottom: 0;
+}
+   
+/* Add a gray background color and some padding to the footer */
+.footer {
+	background-color: #f2f2f2;
+    padding: 25px;
+}
+
+/*Height of SignIn Button*/
+.heigh{
+	height:25px;
+}
+
+/*Color of brand BidBuddy*/
+.color_red{
+	color:red;
+}
+.color_white{
+	color:white;
+}
+
+/*Styling the LogIn*/
+.ulsty{
+	margin-top:1%;
+	margin-bottom:-1.5%;
+	margin-right:2%;
+}
+
+/*Styling the Input Tag*/
+.ulinp{
+	border-radius:2%;
+}
+
+/*Styling the SignIn Button*/
+.ulbut{
+	margin-top:0%;
+}
+.pbut{
+	margin-top:-9%;
+}
+
+/*Second col-sm-6 div*/
+.divcol{
+	border-radius:2%;
+	border:double;
+	background-color:white;
+	padding:1.8em;
+	padding-bottom:2em;
+	margin-top:-3%;
+	margin-bottom:2%;
+}
+
+/*Style of "Create an Account"*/
+.h2sty{
+	text-align:center;
+	margin-top:-1%;
+	color:#cc6600;
+	font-family:sans-serif;
+}
+
+/*Styling SignUp button*/
+.buttonsty{
+	margin-top:4%;
+}
+
+/**/
+.por{
+	font-size:14px;
+}
+
+/**/
+.pfp{
+	font-size:12px;
+	margin-top:-1%;
+	margin-bottom:-5%;
+}
+
+/*Styling i class*/
+.isty{
+	font-size:24px;
+}
+
+/*Styling the ResetPassword div box*/
+.divbor{
+	background-color:#ffffff;
+	margin-top:20%;
+	margin-left:34%;
+	margin-right:34%;
+	border:double;
+	border-radius:4%;
+	padding:4em;
+}
+
+/*Styling the ResetPasseword username input field*/
+.inpcustom{
+	border-color:#cc0066;
+}

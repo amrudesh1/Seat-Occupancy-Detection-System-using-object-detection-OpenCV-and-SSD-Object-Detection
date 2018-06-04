@@ -1,0 +1,121 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<style>
+			div.sty1{
+				margin-left:25%;
+			}
+			div.sty2{
+				margin-left:-25%;
+			}
+			div.sty3{
+				margin-top:3.5%;
+			}
+			div.sty4{
+				margin-left:40%;
+			}
+		</style>
+		<?php
+			$servername = "localhost";
+			$username = "root";
+			$password = "";
+
+			// Create connection
+			$conn = new mysqli($servername, $username, $password);
+
+			// Check connection
+			if ($conn->connect_error) {
+				die("Connection failed: " . $conn->connect_error);
+			}
+		?> 
+	</head>
+	<body>
+		<div class="container">
+			<div class="row sty3">
+				<div class="col-sm-6 sty1">
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<br>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<br>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+				</div>
+				<div class="col-sm-6 sty2">
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<br>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<br>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+				</div>
+			</div>
+			<div class="row" style="margin-left:17%;">
+				<img src="assets/images/door.png" alt="Door" width="45" height="70"/>
+				<p style="margin-left:0.75%;"><b>Door</b></p>
+			</div>
+			<div class="row" style="margin-top:-5.3%">
+				<div class="col-sm-6 sty1">
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<br>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<br>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+				</div>
+				<div class="col-sm-6 sty2">
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<br>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<br>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+					<img src="assets/images/seat_white.png" alt="Unoccupied" width="50" height="55"/>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="sty4">
+					<img src="assets/images/stage.png" alt="Stage" width="180" height="120"/>
+					<h1 style="margin-left:4%"><b>STAGE</b></h1>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
